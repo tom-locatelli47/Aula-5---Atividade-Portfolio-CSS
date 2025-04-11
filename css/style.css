@@ -23,6 +23,16 @@ a {
 p {
   line-height: 130%; /*altura da linha */
 }
+
+section h2 {
+  text-align: center;
+  margin: 15px;
+  padding: 15px 0 0 0;
+}
+
+img {
+  max-width: 100%;
+}
 /*=============================================================
                   ESPECIFICO
 ==============================================================*/
@@ -58,14 +68,8 @@ section.posts {
   padding: 10xp;
 }
 
-section.posts h2 {
-  text-align: center;
-  margin: 15px;
-  padding: 15px 0 0 0;
-}
-
 section.posts ul li {
-  margin: 12px 10px 12px 10px; 
+  margin: 12px 10px 12px 10px;
   background-color: white;
   padding: 15px;
   border-radius: 4px;
@@ -81,3 +85,41 @@ section.posts li p {
   margin: 20px 0 0 0;
 }
 
+section.works {
+  padding: 20px 10px 20px 10px;
+}
+
+section.works ul li {
+  margin: 15px 0 15px 0;
+}
+
+section.works ul li h3 {
+  font-size: 1.25rem;
+  line-height: 130%;
+}
+
+section.works ul li p {
+  margin: 10px;
+}
+
+section.works ul li p.info {
+  color: #8695a4;
+}
+
+section.works ul li p.info span {
+  color: white;
+  background-color: #142850;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+section.works ul {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+footer a {
+  text-align: 2.3rem;
+  margin: 10px 15px 10px 15px;
+  text-align: center;
+}
