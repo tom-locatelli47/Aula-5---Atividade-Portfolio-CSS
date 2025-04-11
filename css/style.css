@@ -37,6 +37,8 @@ img {
                   ESPECIFICO
 ==============================================================*/
 
+/* ===================================================Pagina index=========================================================*/
+
 header ul li {
   text-align: center;
   padding: 10px 0 10px 0;
@@ -119,6 +121,38 @@ section.works ul {
   border-bottom: 1px solid #e0e0e0;
 }
 
+/* ===================================================Pagina Works=========================================================*/
+section.featured {
+  padding: 20px 10px 20px 10px;
+}
+section.featured h2 {
+  font-size: 2.4rem;
+  text-align: left;
+}
+
+section.featured ul li h3 {
+  font-weight: bold;
+  font-size: 2.1rem;
+  margin: 10px;
+}
+
+section.featured ul li p {
+  margin: 10px;
+  color: black;
+}
+
+section.featured ul li p.data {
+  color: #21243d;
+}
+
+section.featured ul li p.data span {
+  color: white;
+  background-color: #FF7C7C;
+  padding: 5px 10px;
+  border-radius: 16px;
+
+}
+/* ===================================================footer=========================================================*/
 footer {
   text-align: center;
 }
