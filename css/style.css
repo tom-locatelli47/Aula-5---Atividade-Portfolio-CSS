@@ -64,8 +64,8 @@ section.posts h2 {
   padding: 15px 0 0 0;
 }
 
-section.posts li {
-  margin: 15px 0;
+section.posts ul li {
+  margin: 12px 10px 12px 10px; 
   background-color: white;
   padding: 15px;
   border-radius: 4px;
@@ -80,3 +80,4 @@ section.posts li h3 {
 section.posts li p {
   margin: 20px 0 0 0;
 }
+
