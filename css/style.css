@@ -136,13 +136,18 @@ section.featured ul li h3 {
   margin: 10px;
 }
 
+section.featured ul li {
+  margin: 25px 0 25px 0;
+}
+
 section.featured ul li p {
-  margin: 10px;
+  margin: 15px 0;
   color: black;
 }
 
 section.featured ul li p.data {
   color: #21243d;
+
 }
 
 section.featured ul li p.data span {
@@ -160,4 +165,7 @@ footer {
 footer a {
   font-size: 2.3rem;
   margin: 10px 15px 10px 15px;
+}
+footer p {
+  margin: 20px 0 20px 0 ;
 }
