@@ -191,7 +191,7 @@ footer p {
   }
 
   section.posts {
-    padding: 2vw 7vw 2vw 7vw;
+    padding: 5vw 7vw 2vw 7vw;
   }
 
   section.posts ul {
@@ -205,7 +205,7 @@ footer p {
   }
 
   section.works {
-    padding: 2vw 7vw 2vw 7vw;
+    padding: 5vw 7vw 2vw 7vw;
   }
 
   section.works ul {
@@ -214,6 +214,7 @@ footer p {
   }
 
   section.works ul li {
+    padding: 2%;
     width: 45%;
   }
 
