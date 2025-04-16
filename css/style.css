@@ -77,7 +77,7 @@ section.posts ul li {
   border-radius: 4px;
 }
 
-section.posts li h3 {
+section.posts ul li h3 {
   font-weight: bold;
   font-size: 1.5rem;
   line-height: 130%;
@@ -93,12 +93,14 @@ section.works ul li {
 
 section.works ul li h3 {
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 130%;
+  padding: 10px 0 0 0;
 }
 
 section.works ul li p.info {
   color: #8695a4;
+  padding: 15px 0;
 }
 
 section.works ul li p.info span {
@@ -219,7 +221,11 @@ footer p {
     padding: 15px 0px 15px 0;
   }
 
-  section.work {
+  section.works ul li p.info {
+    padding: 10px 0 10px 0;
+  }
+
+  section.work ul {
     border-bottom: none;
   }
 }
